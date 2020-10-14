@@ -29,6 +29,7 @@ RUN apt-get update \
         git-lfs \
         mercurial \
         openssh-client \
+        ssh-client \
         subversion \
     && rm -rf /var/lib/apt/lists/*
 
