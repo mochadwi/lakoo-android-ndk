@@ -49,5 +49,4 @@ RUN set -o errexit -o nounset \
     && ln --symbolic "${GRADLE_HOME}/bin/gradle" /usr/bin/gradle \
     \
     && echo "Testing Gradle installation" \
-    && gradle --version \
-    && ls -al $GRADLE_HOME && ls -al $VOLUME
+    && gradle --version 
